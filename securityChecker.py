@@ -4,3 +4,10 @@ usernames = ['jimbo', 'giltson98', 'derekf', 'WhatSup', 'NicolEye',
 'InteractiveConsole', 'InterpreterInterface', 'StartServer', 'bob']
 
 
+username = str(input("Please enter your username."))
+
+if username in usernames:
+    print("Access granted")
+
+else:
+    print("Access denied")
